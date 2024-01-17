@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>WebContent</title>
+    <title>DeleteAccount</title>
     <style>
         html, body {
             height: 100%;
@@ -32,7 +32,7 @@
     <div id="unity-container">
         <canvas id="unity-canvas"></canvas>
     </div>
-    <script src="Build/WebContent.loader.js"></script>
+    <script src="Build/DeleteAccount.loader.js"></script>
     <script>
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             // Mobile device style: fill the whole browser client area with the game canvas:
@@ -50,13 +50,13 @@
         }
 
         createUnityInstance(document.querySelector("#unity-canvas"), {
-            dataUrl: "Build/WebContent.data.unityweb",
-            frameworkUrl: "Build/WebContent.framework.js.unityweb",
-            codeUrl: "Build/WebContent.wasm.unityweb",
+            dataUrl: "Build/DeleteAccount.data.unityweb",
+            frameworkUrl: "Build/DeleteAccount.framework.js.unityweb",
+            codeUrl: "Build/DeleteAccount.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "SEUNGGEUN",
-            productName: "WebContent",
-            productVersion: "0.5",
+            productName: "Morph_DeleteAccount",
+            productVersion: "1.0",
             // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
             // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
         });
